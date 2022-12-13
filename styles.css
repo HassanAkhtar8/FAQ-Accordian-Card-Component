@@ -1,0 +1,95 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ min-height: 100vh;
+ font-family: 'League Spartan', sans-serif;
+ background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+main {
+ width: 90%;
+ min-width: 550px;
+ background-color: #ffff;
+}
+.svg-container {
+ background-image: url("images/bg-pattern-desktop.svg");
+ background-position: right;
+ background-size: cover;
+}
+#box{
+ position: absolute;
+ z-index: 1000;
+}
+#women{
+ position: relative;
+}
+.parent{
+ display: flex;
+}
+span{
+ margin-left: 10px;
+}
+h2 {
+ font-size: 0.8rem;
+ display: inline;
+ margin-right: 0.8rem;
+ color: gray;
+}
+h1{
+ margin-top: 1.5rem;
+ margin-bottom: 1.5rem;
+ color: hsl(238, 29%, 16%);
+}
+p{
+ line-height: 1rem;
+ font-size: small;
+ color: gray;
+}
+img{
+ width: 1rem;
+}
+/*
+.img {
+ transform: rotate(180deg);
+}*/
+img:hover{
+ cursor: pointer;
+}
+.question{
+ margin-bottom: 1.2rem;
+}
+.question-title{
+ margin-bottom: 0.5rem;
+}
+.question-text{
+ display: none;
+}
+.show .question-text{
+ display: block;
+}
+.show .h2 {
+ font-size: 1.1rem;
+ font-weight: 600;
+ color: hsl(237, 12%, 33%);
+}
+h2:hover{
+ cursor: pointer;
+ color: coral;
+}
+@media  screen and (max-width: 550px) {
+ main{
+  min-width: 375px;
+  margin-top: 2rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+ }
+ .parent{
+  flex-direction: column;
+ }
+}
