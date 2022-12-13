@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live site URL]()
+- Live Site URL: [Live site URL](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam/solutions/new)
 
 
 ### Built with
